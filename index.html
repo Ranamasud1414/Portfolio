@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71d364f1d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="hinding">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/masud.png" class="logo">
+                <ul id="menubar">
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                    <i class=" fa fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="front">Front-End Developer</p>
+                <h1>Hi, I,am <span>Masud</span><br>Ali from India </h1>
+
+            </div>
+        </div>
+        <button class="seemorebtn1">Contact Me</button>
+
+    </div>
+      <!-- -------contactme form----- -->
+      <div class="login-box">
+        <label for="" class="close-button"><i class="fa-solid fa-xmark"></i></label>
+        <h2>Contact Me</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Username</label>
+          </div>
+          
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <!-- <textarea name="" id="" cols="68" rows=""></textarea> -->
+            <label>Adress</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Email</label>
+          </div>
+          
+          <a href="#" id="submit1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+      </div>
+    
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="images/m.2.jpg" alt="">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="abouttxt">I love to play with HTML ,CSS,JAVASCRIPT...  Being a web developer is always difficult. It’s a creative job, but one where usually you aren’t the primary stakeholder.   <br>“Great web design without functionality is like a sports car with no engine.”  </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experince')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab_contains active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">Java,JavaScript</p></li>
+                            
+                            <li><span>Familiar With</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">HTML,CSS,SCSS</p></li>
+                            <li><span>Area of Interest</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">Web Devlovment</p></li>
+                            <li><span>Developer Tools</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">VS Code</p></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab_contains" id="experince">
+                        <ul>
+                            <li><span>Experience</span><br>Desinging Web/App InterFaces</li>
+                            <li><span>Web Deplovment</span><br>Web App Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android Apps</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab_contains" id="education">
+                        <ul>
+                            <li><span>Undergraduate Education</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">B.Tech in CSE(Computer Science and Engineering) <br> Siliguri Institute of Technology<br>Bachelor of Technology, Computer Science and Engineering <br>GPA: 9.28(Till 4th sem 2022)</p>
+                            </li>
+                            <li><span>Higher Secondary Education</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">Dinhata High School<br>Percentage: 81.02%</p>
+                            </li>
+                            <li><span>Secondary Education</span><br><p style="margin-top: 10px; font-size: 19px; margin-bottom: 20px;">Gopal Nagar M.S.S High School <br>Percentage: 82.02%</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!--------------services---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Focus On</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                   
+                    
+                    <p> HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. </p>
+                    <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>CSS (Cascading Style Sheets) allows you to create great-looking web pages, but how does it work under the hood? This article explains what CSS is with a simple syntax example and also covers some key terms about the language.
+
+                    </p>
+                    <a href="https://www.w3schools.com/css/css_intro.asp">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>JAVASCRIPT</h2>
+                    <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)</p>
+                    <a href="https://www.w3schools.com/whatis/whatis_js.asp">learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Movie Website Demo</h3>
+                        <p>I make it with the help of HTML,CSS,JAVASCRIPT...</p>
+                        <a href=" https://ranamasud1414.github.io/new-site/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>StopWatch</h3>
+                        <p>I make it also help of HTML,CSS,JAVASCRIPT... </p>
+                        <a href=" https://ranamasud1414.github.io/stopwatch/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Which Avatar Look Like You</h3>
+                        <p>I use HTML,CSS,JAVASCRIPT,Little bit of API and JQUERY....</p>
+                        <a href=" https://ranamasud1414.github.io/Avatar_Making/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="seemore">More Coming soon......</a>
+
+        </div>
+    </div>
+    <!-- ---------contact------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>alimasud1052002@outlook.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="example00@gmail.com" required>
+                        <textarea name="Masseage"  rows="6" placeholder="Your Massage" required></textarea>
+                        <button type="submit" class="glow-on-hover">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright © Masud. Made by Masud Ali</p>
+        </div>
+    </div>
+</div>
+
+    <!-- ----------script------- -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontains=document.getElementsByClassName("tab_contains");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        
+        for(tabcontain of tabcontains){
+            tabcontain.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    let sidemenu=document.getElementById("menubar");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<!-- ----form--- -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  $(document).ready(function(){
+      // $('.contact_me').click(function(){
+         
+      // })
+      $('.seemorebtn1').click(function(){
+          
+          $('.login-box').css({"display":"block"});
+         $('').css({"background":"linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80))"})
+          $(this).hide();
+          $('#submit1').click(function(){
+        $('.login-box').hide();
+        $('.seemorebtn1').css({
+              "display":"block"
+
+          })
+      });
+          
+      });
+      $('.close-button').click(function(){
+          $('.login-box').hide();
+          $('.seemorebtn1').css({
+              "display":"block"
+
+          })
+          
+      });
+     
+      
+     
+
+  });
+  
+
+</script>
+<!-- ------5--- -->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUxEEu5Oj8MQdSUw-v_FqQfbjH-wRcLxpByuNzcaH4YSai4aRTP3ACOnxvFgLbOy8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Masseage sent Succesfully....."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
